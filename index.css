@@ -1,0 +1,298 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+nav{
+    display: flex;
+     justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav .right img{
+    height: 20px
+}
+nav ul{
+    display: flex;
+    gap: 60px;
+}
+ nav ul li{ 
+    list-style: none;  
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav .left ul li{
+
+} 
+.hero.video-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero .videoText{ 
+    position: absolute;
+    /* z-index: 1; */
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 40%;
+ } 
+ .hero .videoText h1{
+    font-size: 40px;
+ }
+ .hero .videoText p{
+    padding: 15px 25px;
+    background: blue;
+    width: 100px;
+    margin-left: 150px;
+    border-radius: 30px;
+    font-weight: 600;
+ }
+.steps .text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 100px;
+}
+.steps .text h1{
+    font-weight: 400;
+}
+
+.steps .text p{
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 100px;
+    padding: 6px 5px;
+    border: 1px solid grey;
+    border-radius: 30px;
+    width: 15%;
+    margin-left: 600px;
+
+}
+.steps .image-step{
+    display: flex;
+    justify-content: center;
+   margin-right: 100px;
+    margin-left: 150px;
+    gap: 20px;
+
+}
+.steps .image-step img{
+    width: 300px;
+    border: 50px;
+    border: 1px solid white ;
+    border-radius: 20px;
+
+}
+.steps .image-step p{
+    line-height: 38px;
+    letter-spacing: 1.3;
+    color: #344854;
+
+}
+.step2 .text2{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.step2 .text2 p{
+    font-size: 50px;
+    font-weight: 500px;
+
+}
+.step2 .image-step2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.step2 .image-step2 img{
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.step2 .image-step2 .metaImage img{
+    width: 670px;
+}
+.step2 .image-step2 .vrimage img{
+    width: 690px;
+}
+.image-step2 .metaImage .glass img{
+    width: 350px;
+    position: relative;
+    left: 20%;
+    bottom: 15px;
+    
+}
+.image-step2 .vrimage .vr img{
+    width: 300px;
+    position: relative;
+    left: 30%;
+    bottom: 60px;
+
+}
+.image-step2 .metaImage h2 {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #1c2b33;
+
+}
+.image-step2 .metaImage p{
+    text-align: center;
+    font-size: 18px;
+    color: #1c2b33;
+ } 
+.image-step2 .vrimage h2{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #1c2b33;
+}
+.image-step2 .vrimage p{
+    text-align: center;
+    font-size: 18px;
+    color: #1c2b33;
+}
+.step3 .text3 h2{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #1c2b33;
+
+}
+.step3 .text3 .anch a{
+    text-decoration: none;
+    color: #1c2b33;   
+    gap: 20px;
+    
+
+}
+.step3 .text3 .anch{
+    margin-bottom: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.step3 .text3 .anch .explore {
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    align-items: center;
+}
+.step3 .video video{
+    width: 80%;
+ margin-left: 150px;
+margin-right: 100px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+.step4 {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 150px;
+    flex-wrap: wrap;
+}
+.step4 .images img{
+    width: 120px;
+    gap: 50px;
+
+}
+.step4 .images{
+    
+}
+.step5{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+
+}
+.step5 img{
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.step5 .text h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #1c2b33;
+
+}
+.step5 .text p{
+    font-size: 20px;
+    color: #1c2b33;
+}
+
+ .step5 .text5{
+    padding: 10px 10px;
+    background: blue;
+    color: white;
+    border-radius: 30px;
+ }   
+ .lastContainer{
+    width: 100%;
+    height: 900px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    flex-wrap: wrap;
+ }
+ .lastContainer .social .logo img{
+    width: 50px;
+ }
+ .lastContainer .social .socials img{
+    width: 30px;
+ }
+ .lastContainer ul li{
+    list-style: none;
+ }
+ .lastContainer ul li a{
+    text-decoration: none;
+    color: #1c2b33;
+ }
+ @media screen and (max-width: 768px){
+    .lastContainer{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .lastContainer ul{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .step2{
+        display: flex;
+        flex-direction: column;
+    }
+    .step3{
+        display: flex;
+        flex-direction: column;
+    }
+    .step4{
+        display: flex;
+        flex-direction: column;
+    }
+    
+ }
